@@ -17,3 +17,14 @@ def parity(x):
     
 
 # Time complexity is O(n), where n is the word size 
+
+
+def parity(x):
+    result = 0
+    while x: 
+        result ^= 1
+        x &= x - 1  # Drops the lowest bit of x.
+    return result
+
+
+# time complexity O(k), where k is the number of bits set to 1 in a particular word.
