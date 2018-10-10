@@ -11,7 +11,7 @@ def power(x, y):
     return result 
     
 
-#The number of multiplication is at most twice the index of y's MSB, implying an O(n) time complexity 
+#The number of multiplications is at most twice the index of y's MSB, implying an O(n) time complexity 
 
 
 
